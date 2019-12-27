@@ -16,5 +16,6 @@
     <string name="versao">v1.0</string>
     <string name="cancelar">Cancelar</string>
     <string name="voltar">Voltar</string>
+    <string name="lugar">Lugar</string>
 
 </resources>
