@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".RegistarCargaActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <!-- Nome da Carga -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeCarga1"
+            android:text="@string/nomeCarga"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeCarga2"
+            android:hint="@string/nomeCarga"
+            android:textSize="15dp"
+            android:layout_below="@id/nomeCarga1"
+            android:layout_marginBottom="15dp"
+            />
+
+        <!-- Tipo de Carga -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoCarga1"
+            android:text="@string/tipoCarga"
+            android:textSize="20dp"
+            android:layout_below="@id/nomeCarga2"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoCarga2"
+            android:hint="@string/tipoCarga"
+            android:textSize="15dp"
+            android:layout_below="@id/tipoCarga1"
+            android:layout_marginBottom="15dp"
+            />
+
+        <!-- Cais -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cais1"
+            android:text="@string/cais"
+            android:textSize="20dp"
+            android:layout_below="@id/tipoCarga2"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cais2"
+            android:hint="@string/cais"
+            android:textSize="15dp"
+            android:layout_below="@id/cais1"
+            android:layout_marginBottom="15dp"
+            />
+
+        <!-- Matrícula -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matricula1"
+            android:text="@string/matricula"
+            android:textSize="20dp"
+            android:layout_below="@id/cais2"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matricula2"
+            android:hint="@string/matricula"
+            android:textSize="15dp"
+            android:layout_below="@id/matricula1"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!--
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeCarga1"
+            android:text="@string/nomeCarga"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/nomeCarga2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nomeCarga"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+    -->
+
+
+
+
+
+</RelativeLayout>
