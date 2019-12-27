@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">LogisTraffic-Gestao</string>
+    <string name="app_name">LogisTraffic - Gestão</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sobre">Sobre</string>
+    <string name="enviar_not">Enviar Notificação</string>
+    <string name="nomeCarga">Nome da Carga</string>
+    <string name="tipoCarga">Tipo da Carga</string>
+    <string name="cais">Cais</string>
+    <string name="matricula">Matrícula</string>
+    <string name="check">Confirmar</string>
 </resources>
