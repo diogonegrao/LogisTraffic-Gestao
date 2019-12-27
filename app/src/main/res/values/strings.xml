@@ -8,4 +8,13 @@
     <string name="cais">Cais</string>
     <string name="matricula">Matrícula</string>
     <string name="check">Confirmar</string>
+    <string name="trabalho1">Projeto Final</string>
+    <string name="trabalho2">Desenvolvido por:</string>
+    <string name="bryan">Bryan Dias</string>
+    <string name="diogo">Diogo Negrão</string>
+    <string name="trabalho3">Programação Móvel e Sistemas Ciber-Físicos</string>
+    <string name="versao">v1.0</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="voltar">Voltar</string>
+
 </resources>

@@ -7,6 +7,13 @@
     <!-- Cancelar -->
     <item
         android:id="@+id/cancelar"
+        android:title="@string/cancelar"
+        app:showAsAction="always"
+        android:icon="@drawable/cancel_2x"/>
+
+    <!-- Check -->
+    <item
+        android:id="@+id/check"
         android:title="@string/check"
         app:showAsAction="always"
         android:icon="@drawable/check_2x"/>

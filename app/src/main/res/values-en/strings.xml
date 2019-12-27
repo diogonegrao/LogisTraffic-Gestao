@@ -8,5 +8,13 @@
     <string name="cais">Dock</string>
     <string name="matricula">License Plate</string>
     <string name="check">Confirm</string>
+    <string name="trabalho1">Final Project</string>
+    <string name="trabalho2">Made by:</string>
+    <string name="bryan">Bryan Dias</string>
+    <string name="diogo">Diogo Negrão</string>
+    <string name="trabalho3">Mobile Programming and Cyber-Physical Systems</string>
+    <string name="versao">v1.0</string>
+    <string name="cancelar">Cancel</string>
+    <string name="voltar">Return</string>
 
 </resources>

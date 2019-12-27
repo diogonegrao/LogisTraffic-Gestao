@@ -8,30 +8,26 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class RegistarCargaActivity extends AppCompatActivity {
+public class SobreActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registar_carga);
+        setContentView(R.layout.activity_sobre);
     }
 
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_registo_carga, menu);
+        inflater.inflate(R.menu.menu_sobre, menu);
         return true;
     }
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
-        switch(item.getItemId()) {
-            case R.id.cancelar:
+        switch(item.getItemId()){
+            case R.id.voltar:
                 finish();
                 return true;
-
-            case R.id.check:
-                //////////////
 
             default:
                 return super.onOptionsItemSelected(item);

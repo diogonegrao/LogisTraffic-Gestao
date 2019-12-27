@@ -78,6 +78,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/matricula1"
             android:text="@string/matricula"
+            android:inputType="number"
             android:textSize="20dp"
             android:layout_below="@id/cais2"
             />
@@ -92,46 +93,5 @@
             />
 
     </LinearLayout>
-
-
-
-
-
-
-
-    <!--
-
-    <LinearLayout
-        android:id="@+id/layout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_centerInParent="true">
-
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/nomeCarga1"
-            android:text="@string/nomeCarga"
-            android:layout_marginBottom="5dp"
-            android:textSize="20dp"
-            />
-        <EditText
-            android:id="@+id/nomeCarga2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/nomeCarga"
-            android:layout_marginBottom="5dp"
-            android:textSize="15dp"/>
-
-
-    </LinearLayout>
-    -->
-
-
-
-
 
 </RelativeLayout>
