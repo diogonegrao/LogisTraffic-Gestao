@@ -91,6 +91,13 @@
             android:layout_below="@id/matricula1"
             android:layout_marginBottom="15dp"
             />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pesquisa"
+            android:text="Pesquisa de matricula"
+            android:onClick="Pesquisa"
+            tools:ignore="OnClick" />
 
     </LinearLayout>
 
