@@ -68,6 +68,7 @@
             android:id="@+id/cais2"
             android:hint="@string/cais"
             android:textSize="15dp"
+            android:inputType="number"
             android:layout_below="@id/cais1"
             android:layout_marginBottom="15dp"
             />
@@ -78,7 +79,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/matricula1"
             android:text="@string/matricula"
-            android:inputType="number"
             android:textSize="20dp"
             android:layout_below="@id/cais2"
             />

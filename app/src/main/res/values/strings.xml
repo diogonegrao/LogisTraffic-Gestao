@@ -17,5 +17,11 @@
     <string name="cancelar">Cancelar</string>
     <string name="voltar">Voltar</string>
     <string name="lugar">Lugar</string>
+    <string name="lugar2">Lugar: </string>
+    <string name="nomeCarga2">Nome da Carga: </string>
+    <string name="matricula2">Matrícula: </string>
+    <string name="matricula_encontrada">Matrícula encontrada com sucesso</string>
+    <string name="matricula_nao_encontrada">Matrícula não encontrada. Por favor introduza novamente.</string>
+
 
 </resources>

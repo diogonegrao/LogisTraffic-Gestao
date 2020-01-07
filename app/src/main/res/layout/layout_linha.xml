@@ -11,16 +11,30 @@
     android:paddingTop="16dp"
     tools:context=".MainActivity">
 
-    <!-- Cais -->
+    <!-- Carga -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cais_texto"
+        android:text="@string/nomeCarga2"
+        android:textSize="13dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cais"
-        android:text="@string/cais"
+        android:text="@string/nomeCarga"
         tools:ignore="MissingConstraints"
-        android:textSize="13sp"/>
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/cais_texto"/>
 
     <!-- Estado do Lugar -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lugar_texto"
+        android:text="@string/lugar2"
+        android:textSize="13dp"
+        android:layout_below="@+id/cais_texto"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,9 +42,17 @@
         android:text="@string/lugar"
         tools:ignore="MissingConstraints"
         android:textSize="13sp"
-        android:layout_below="@+id/cais"/>
+        android:layout_below="@+id/cais"
+        android:layout_toRightOf="@+id/lugar_texto"/>
 
     <!-- Matricula -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/matricula_texto"
+        android:text="@string/matricula2"
+        android:textSize="13dp"
+        android:layout_below="@+id/lugar_texto"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +60,8 @@
         android:text="@string/matricula"
         tools:ignore="MissingConstraints"
         android:layout_below="@id/lugar"
-        android:textSize="13sp"/>
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/matricula_texto"/>
 
 
 </RelativeLayout>

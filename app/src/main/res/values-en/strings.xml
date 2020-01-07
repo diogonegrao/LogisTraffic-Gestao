@@ -17,5 +17,10 @@
     <string name="cancelar">Cancel</string>
     <string name="voltar">Return</string>
     <string name="lugar">Spot</string>
+    <string name="lugar2">Dock: </string>
+    <string name="nomeCarga2">Cargo Name: </string>
+    <string name="matricula2">License Plate: </string>
+    <string name="matricula_encontrada">License Plate successfully found.</string>
+    <string name="matricula_nao_encontrada">License Plate not found. Please, try again.</string>
 
 </resources>

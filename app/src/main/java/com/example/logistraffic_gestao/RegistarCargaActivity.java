@@ -144,7 +144,7 @@ public void Pesquisa(View view){
             try {
                 id_1=response.getString("id");
 
-                Toast.makeText(RegistarCargaActivity.this, id_1, Toast.LENGTH_LONG).show();
+                Toast.makeText(RegistarCargaActivity.this, R.string.matricula_encontrada, Toast.LENGTH_LONG).show();
 
 
 
@@ -156,7 +156,7 @@ public void Pesquisa(View view){
     }, new Response.ErrorListener() {
         @Override
         public void onErrorResponse(VolleyError error) {
-            Toast.makeText(RegistarCargaActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(RegistarCargaActivity.this, R.string.matricula_nao_encontrada, Toast.LENGTH_SHORT).show();
             Log.d("Erro", error.toString());
         }
     });
