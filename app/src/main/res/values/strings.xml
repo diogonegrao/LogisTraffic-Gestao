@@ -23,6 +23,7 @@
     <string name="matricula_encontrada">Matrícula encontrada com sucesso</string>
     <string name="matricula_nao_encontrada">Matrícula não encontrada. Por favor introduza novamente.</string>
     <string name="tipoCarga2">Tipo de Carga: </string>
+    <string name="pesquisamatricula">Pesquisa de matrícula</string>
 
 
 </resources>
