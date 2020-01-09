@@ -22,5 +22,6 @@
     <string name="matricula2">License Plate: </string>
     <string name="matricula_encontrada">License Plate successfully found.</string>
     <string name="matricula_nao_encontrada">License Plate not found. Please, try again.</string>
+    <string name="tipoCarga2">Cargo Type: </string>
 
 </resources>

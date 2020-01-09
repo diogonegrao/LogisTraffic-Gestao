@@ -27,6 +27,7 @@ public class CustomArrayAdapter extends ArrayAdapter<Carga> {
         }
 
         ((TextView) convertView.findViewById(R.id.nome_carga)).setText(c.getNome());
+        ((TextView) convertView.findViewById(R.id.tipo_carga)).setText(c.getTipo());
         ((TextView) convertView.findViewById(R.id.lugar)).setText(c.getCais());
         ((TextView) convertView.findViewById(R.id.matricula)).setText(c.getMatricula());
 

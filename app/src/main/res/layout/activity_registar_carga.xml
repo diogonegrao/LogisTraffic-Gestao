@@ -32,6 +32,7 @@
             android:textSize="15dp"
             android:layout_below="@id/nomeCarga1"
             android:layout_marginBottom="15dp"
+            android:textAlignment="center"
             />
 
         <!-- Tipo de Carga -->
@@ -51,6 +52,7 @@
             android:textSize="15dp"
             android:layout_below="@id/tipoCarga1"
             android:layout_marginBottom="15dp"
+            android:textAlignment="center"
             />
 
         <!-- Cais -->
@@ -71,6 +73,7 @@
             android:inputType="number"
             android:layout_below="@id/cais1"
             android:layout_marginBottom="15dp"
+            android:textAlignment="center"
             />
 
         <!-- Matrícula -->
@@ -90,6 +93,7 @@
             android:textSize="15dp"
             android:layout_below="@id/matricula1"
             android:layout_marginBottom="15dp"
+            android:textAlignment="center"
             />
         <Button
             android:layout_width="wrap_content"

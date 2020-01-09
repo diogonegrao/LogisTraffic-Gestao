@@ -27,6 +27,24 @@
         android:textSize="13sp"
         android:layout_toRightOf="@+id/nome_carga_texto"/>
 
+    <!-- Tipo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipo_carga_texto"
+        android:text="@string/tipoCarga2"
+        android:textSize="13dp"
+        android:layout_below="@+id/nome_carga_texto"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipo_carga"
+        android:text="@string/tipoCarga"
+        tools:ignore="MissingConstraints"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/tipo_carga_texto"
+        android:layout_below="@+id/nome_carga_texto"/>
+
     <!-- Estado do Lugar -->
     <TextView
         android:layout_width="wrap_content"
@@ -34,7 +52,7 @@
         android:id="@+id/lugar_texto"
         android:text="@string/lugar2"
         android:textSize="13dp"
-        android:layout_below="@+id/nome_carga"/>
+        android:layout_below="@+id/tipo_carga"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +60,7 @@
         android:text="@string/lugar"
         tools:ignore="MissingConstraints"
         android:textSize="13sp"
-        android:layout_below="@+id/nome_carga"
+        android:layout_below="@+id/tipo_carga"
         android:layout_toRightOf="@+id/lugar_texto"/>
 
     <!-- Matricula -->
