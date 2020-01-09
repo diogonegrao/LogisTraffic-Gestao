@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Carga -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_carga_texto"
+        android:text="@string/nomeCarga2"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_carga"
+        android:text="@string/nomeCarga"
+        tools:ignore="MissingConstraints"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/nome_carga_texto"/>
+
+    <!-- Tipo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipo_carga_texto"
+        android:text="@string/tipoCarga2"
+        android:textSize="13dp"
+        android:layout_below="@+id/nome_carga_texto"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipo_carga"
+        android:text="@string/tipoCarga"
+        tools:ignore="MissingConstraints"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/tipo_carga_texto"
+        android:layout_below="@+id/nome_carga_texto"/>
+
+    <!-- Estado do Lugar -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lugar_texto"
+        android:text="@string/lugar2"
+        android:textSize="13dp"
+        android:layout_below="@+id/tipo_carga"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lugar"
+        android:text="@string/lugar"
+        tools:ignore="MissingConstraints"
+        android:textSize="13sp"
+        android:layout_below="@+id/tipo_carga"
+        android:layout_toRightOf="@+id/lugar_texto"/>
+
+    <!-- Matricula -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/matricula_texto"
+        android:text="@string/matricula2"
+        android:textSize="13dp"
+        android:layout_below="@+id/lugar_texto"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/matricula"
+        android:text="@string/matricula"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/lugar"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/matricula_texto"/>
+
+
+</RelativeLayout>

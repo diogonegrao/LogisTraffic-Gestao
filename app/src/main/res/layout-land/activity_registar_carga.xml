@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".RegistarCargaActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_tipo_carga"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <!-- Nome da Carga -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeCarga1"
+            android:text="@string/nomeCarga"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeCarga2"
+            android:hint="@string/nomeCarga"
+            android:textSize="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            />
+
+        <!-- Tipo de Carga -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoCarga1"
+            android:text="@string/tipoCarga"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoCarga2"
+            android:hint="@string/tipoCarga"
+            android:textSize="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cais_matricula"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/nome_tipo_carga">
+
+        <!-- Cais -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cais1"
+            android:text="@string/cais"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cais2"
+            android:hint="@string/cais"
+            android:textSize="15dp"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/cais1"
+            android:layout_marginLeft="2dp"
+            />
+
+        <!-- Matrícula -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matricula1"
+            android:text="@string/matricula"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/cais1"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matricula2"
+            android:hint="@string/matricula"
+            android:textSize="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/matricula1"
+            android:layout_toRightOf="@+id/cais2"
+            android:layout_marginLeft="25dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao_pesquisar"
+        android:layout_below="@+id/cais_matricula"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pesquisa"
+            android:text="Pesquisa de matricula"
+            android:onClick="Pesquisa"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</RelativeLayout>
